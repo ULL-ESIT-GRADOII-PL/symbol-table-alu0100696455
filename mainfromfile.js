@@ -9,7 +9,7 @@ var util = require('util');
 var fs = require('fs');
 var PEG = require("pl0node.js");
 var semantic = require("semantic.js");
-var fileName = process.argv[2] || 'tests/twicedecl2.pl0';
+var fileName = process.argv[2] || 'tests/twicedecl.pl0';
 
 const lineNumbers = (input) => {
   let count = 1;
